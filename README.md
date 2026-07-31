@@ -27,8 +27,3 @@ Metric	Score
 This dataset has far more features (~7,000 genes) than samples (38 patients), which makes the model prone to overfitting — it can effectively "memorize" the training patients rather than learning a generalizable pattern. I confirmed this by comparing train and test scores directly, and reduced it somewhat using max_depth and min_samples_leaf to constrain the trees. Given the small test set (~8 patients), the accuracy score itself should be interpreted cautiously rather than treated as a precise, stable measure of performance.
 
 This project was a hands-on introduction to working with high-dimensional biological data, and to critically evaluating a model's output rather than accepting a high score at face value.
-
-🔗 Related projects:
-
-Titanic Survival Prediction
-Turkish Sentiment Analysis API
